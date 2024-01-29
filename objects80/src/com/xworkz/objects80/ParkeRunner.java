@@ -1,0 +1,92 @@
+package com.xworkz.objects80;
+
+public class ParkeRunner {
+
+	public static void main(String[] args) {
+		Parke parke=new Parke();
+		System.out.println(parke.lengthInInches);
+		System.out.println(parke.diameterInMiliMeter);
+		System.out.println(parke.material);
+		System.out.println(parke.color);
+		System.out.println(parke.handleShape);
+		System.out.println(parke.isItFlexible);
+		System.out.println(parke.texture);
+		System.out.println(parke.durability);
+		System.out.println(parke.strength);
+		System.out.println(parke.handleType);
+		System.out.println(parke.handdiameterinInches);
+		System.out.println(parke.flexibility);
+		System.out.println(parke.gripMaterial);
+		System.out.println(parke.gripFlexibility);
+		System.out.println(parke.gripCircumference);
+		System.out.println(parke.handleDurability);
+		System.out.println(parke.handleStrength);
+		System.out.println(parke.bristleMaterial);
+		System.out.println(parke.manufacture);
+		System.out.println(parke.bristleLength);
+		System.out.println(parke.bristleDensity);
+		System.out.println(parke.bristleArrangementPattern);
+		System.out.println(parke.bristlethickness);
+		System.out.println(parke.bristlespacingInMM);
+		System.out.println(parke.bristleResilience);
+		System.out.println(parke.bristleColor);
+		System.out.println(parke.isHeatResistant);
+		System.out.println(parke.isEnvironmentFriendly);
+		System.out.println(parke.isItReusable);
+		System.out.println(parke.bristleDustAbsorptionRate);
+		System.out.println(parke.hasPressureSensor);
+		System.out.println(parke.isFlexible);
+		System.out.println(parke.additionalFeatures);
+		System.out.println(parke.isRechargeable);
+		System.out.println(parke.batteryType);
+		System.out.println(parke.hasAppIntegration);
+		System.out.println(parke.isBambooHandle);
+		System.out.println(parke.hasCharcoalInfusion);
+		System.out.println(parke.sustainabilityCertification);
+		System.out.println(parke.recyclabilityDetails);
+		System.out.println(parke.retailerLocation);
+		System.out.println(parke.quantityInStock);
+		System.out.println(parke.isShippable);
+		System.out.println(parke.shippingMethod);
+		System.out.println(parke.havingAdditionalProperty);
+		System.out.println(parke.settingStyle);
+		System.out.println(parke.sizeUnit);
+		System.out.println(parke.isStackable);
+		System.out.println(parke.isEternity);
+		System.out.println(parke.isReSizable);
+		System.out.println(parke.hasInscription);
+		System.out.println(parke.isAntique);
+		System.out.println(parke.isModern);
+		System.out.println(parke.bristle);
+		System.out.println(parke.recycleable);
+		System.out.println(parke.isBioDegradable);
+		System.out.println(parke.bristleMaintenance);
+		System.out.println(parke.bristleUniformity);
+		System.out.println(parke.dustAbsoptionRatw);
+		System.out.println(parke.maintenance);
+		System.out.println(parke.bristleAlignment);
+		System.out.println(parke.bristleCoverageArea);
+		System.out.println(parke.bristleOrigin);
+		System.out.println(parke.bristleCost);
+		System.out.println(parke.bristleCertification);
+		System.out.println(parke.hasAntiFugalproperties);
+		System.out.println(parke.hasAntiFugalbactirialproperties);
+		System.out.println(parke.hasSafetyFeature);
+		System.out.println(parke.isAntiRust);
+		System.out.println(parke.antiSlipery);
+		System.out.println(parke.hasCorrosiveProperties);
+		System.out.println(parke.isAntiViral);
+		System.out.println(parke.decompositionRate);
+		System.out.println(parke.isDisposable);
+		System.out.println(parke.warrantyDetails);
+		System.out.println(parke.hasBristleIndicator);
+		System.out.println(parke.replacementIndicatorType);
+		System.out.println(parke.specialEdition);
+		System.out.println(parke.isFlexibl);
+		System.out.println(parke.gripTexture);
+		System.out.println(parke.productFormulation);
+		System.out.println(parke.handlePattern);
+
+			}
+
+}

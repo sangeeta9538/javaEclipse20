@@ -1,0 +1,91 @@
+package com.xworkz.objects80;
+
+public class ShoeRunner {
+
+	public static void main(String[] args) {
+            Shoe shoe=new Shoe();
+            System.out.println(shoe.material);
+            System.out.println(shoe.brand);
+            System.out.println(shoe.color);
+            System.out.println(shoe.soleMaterial);
+            System.out.println(shoe.heelHeight);
+            System.out.println(shoe.soleThickness);
+            System.out.println(shoe.type);
+            System.out.println(shoe.liningMaterial);
+            System.out.println(shoe.closureType);
+            System.out.println(shoe.hasLaces);
+            System.out.println(shoe.laceMaterial);
+            System.out.println(shoe.laceLengthininches);
+            System.out.println(shoe.size);
+            System.out.println(shoe.toeStyle);
+            System.out.println(shoe.hasArchSupport);
+            System.out.println(shoe.isWaterProof);
+            System.out.println(shoe.weightingramm);
+            System.out.println(shoe.breathability);
+            System.out.println(shoe.durability);
+            System.out.println(shoe.seasonality);
+            System.out.println(shoe.price);
+            System.out.println(shoe.madeIn);
+            System.out.println(shoe.ankleSupport);
+            System.out.println(shoe.hasCharcoalInfusion);
+            System.out.println(shoe.sustainabilityCertification);
+            System.out.println(shoe.recyclabilityDetails);
+            System.out.println(shoe.retailerLocation);
+            System.out.println(shoe.quantityInStock);
+            System.out.println(shoe.isShippable);
+            System.out.println(shoe.shippingMethod);
+            System.out.println(shoe.havingAdditionalProperty);
+            System.out.println(shoe.settingStyle);
+            System.out.println(shoe.sizeUnit);
+            System.out.println(shoe.isStackable);
+            System.out.println(shoe.isEternity);
+            System.out.println(shoe.isReSizable);
+            System.out.println(shoe.hasInscription);
+            System.out.println(shoe.isAntique);
+            System.out.println(shoe.isModern);
+            System.out.println(shoe.isAntiBacterial);
+            System.out.println(shoe.productFormulation);
+            System.out.println(shoe.design);
+            System.out.println(shoe.placement);
+            System.out.println(shoe.finish);
+            System.out.println(shoe.soleFinish);
+            System.out.println(shoe.tipDesign);
+            System.out.println(shoe.tipShape);
+            System.out.println(shoe.hasPattern);
+            System.out.println(shoe.patternType);
+            System.out.println(shoe.qualityRatingOutOfTen);
+            System.out.println(shoe.hasTravelCap);
+            System.out.println(shoe.manufacturingCountry);
+            System.out.println(shoe.Origin);
+            System.out.println(shoe.isClinicallyProven);
+            System.out.println(shoe.clinicalStudyDetails);
+            System.out.println(shoe.isApproved);
+            System.out.println(shoe.isCEMarked);
+            System.out.println(shoe.ApprovalDate);
+            System.out.println(shoe.dimensionsMentioned);
+            System.out.println(shoe.recycleable);
+            System.out.println(shoe.isBioDegradable);
+            System.out.println(shoe.hasGumProtection);
+            System.out.println(shoe.isComfertable);
+            System.out.println(shoe.Pattern);
+            System.out.println(shoe.gripMaterial);
+            System.out.println(shoe.isWaterproof);
+            System.out.println(shoe.recommendedAgeGroup);
+            System.out.println(shoe.hasReplacementIndicator);
+            System.out.println(shoe.soleMatrial);
+            System.out.println(shoe.laceCount);
+            System.out.println(shoe.packagingType);
+            System.out.println(shoe.packagingColor);
+            System.out.println(shoe.productionDate);
+            System.out.println(shoe.usageInstructions);
+            System.out.println(shoe.isOversized);
+            System.out.println(shoe.isItReusable);
+            System.out.println(shoe.colorFade);
+            System.out.println(shoe.maintenance);
+            System.out.println(shoe.durabilityInYears);
+            System.out.println(shoe.vintageOrRetro);
+            System.out.println(shoe.fashionEra);
+
+	}
+
+}

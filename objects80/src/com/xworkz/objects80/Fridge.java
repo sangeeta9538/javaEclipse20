@@ -1,0 +1,88 @@
+package com.xworkz.objects80;
+
+public class Fridge {
+    public String manufacturer="steel garden";
+    public String brandName="LG";
+    public String model="LG 236L";
+    public String color="BROWN";
+    public String material="FIBER";
+    public int price=25000;
+    public int widthInInch=20;
+    public int heightInInch=35;
+    public int depthInInch =10;
+    public int rating=5;
+    public int noOfDoors=2;
+    public String doorType="swing";
+    public String doormaterial="fiber";
+    public String dooralarm="bell type";
+    public int capacityInLLit=205;
+    public String temperatureControlType ="DIGITAL";
+    public int 	serialNumber=105;
+    public int energyEfficiency =25;
+	public String coolingSystemType="THERMO ELECTRC";
+	public boolean hasFreezerCompartment=true;
+	public int numberOfCompartment=10;
+    public String temperatureRange="0 to 30";
+	public int numberOfTemperatureZones=6;
+	public boolean hasInteriorLighting=true;
+	public int InteriorLightingNumbers=2;
+public boolean hasAdjustableShelves=true;
+    public byte noOfShelves=15;
+
+	public int noOfCompartments=5;
+	public boolean hasHumidityControl=true;
+	public boolean hasIceMaker=true;
+	public int iceStorageCapacity=12;
+	public String iceCubeShape="square";
+	public boolean hasIceDispenser=true;
+	public boolean hasChildLock=true;
+	public boolean hasWaterFilter=true;
+	public boolean touchScreen=true;
+	public boolean powerFailureAlarm=true;
+	public String connecttivityType="wi-fi";
+	public boolean isMobileCompatible=true;
+	public String defrosting="manual";
+	public String handleType="long";
+	public String handleMaterial="steel";
+	public String noiceLevel="no noice";
+	public boolean hasReversibleDoor=true;
+	public boolean hasHolidayMode=true;
+	public String waterDispenserCapacity="2 litre";
+	public String smartFeature="voice control";
+	public boolean winerack=true;
+	public String waterCapacity="15 lit";
+	public boolean hasEggtray=true;
+	public int noofEggs=10;
+  public boolean hasMeatTRAY=true;
+	public String meetTrayCapacity="10 kg";
+	public String exteriorFinish="glossy";
+	public String interiorFinish="matte";
+	public String childLockType="key";
+	public String tempControl="by remote or manual";
+	public boolean hasEnergySavingMode=true;
+	public boolean hasSmartFeatures=true;
+	public int noOfVegitabledrowers=6;
+	public boolean hasAirPurifier=true;
+	public boolean isCounterDepth=false;
+	public boolean ControlPanel=true;
+	public boolean hasClosedRacks=true;
+	public byte noOfRacks=2;
+	public boolean hasHiddenControlPanel=true;
+	public boolean hasWarranty=true;
+	public String paymentType="online";
+	public boolean havingDoorAlaram=true;
+	public String interiorLightingMode="automatic";
+	public int numberOfshevles=	6;
+	public String shelfMaterial="fiber";
+	public boolean isItHasACrisperDrawers=true;;
+	public boolean isItHaveATempratureZone=true;
+	public boolean hasDoorInDoorFeature=true;
+	public String cleaningMode="self cleaning";
+	public int noOfLights=6;
+	public int noOfWheels=4;
+	public boolean hasColorOption=false;
+	public boolean hasDairyCorner;
+
+
+
+}

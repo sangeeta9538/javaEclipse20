@@ -1,0 +1,91 @@
+package com.xworkz.objects80;
+
+public class Paste {
+	    
+        public String pasteName="puree"; 
+       public String brandName="Haldiram";
+	    public String flavor="spicy";
+	    public String weight="250 grams";
+	    public int price=250;
+	    public int noOfIngridiants=20;
+	    public String maufacturedate="5 DEC 2023";
+        public boolean hasexpiryDate=true;
+        public String expiryDate="5 jan 2024";
+        public boolean hasAddedSugar=true;
+	    public int sugarnGrams=10;
+	    public boolean addedColor=true;
+	    public String colorName="Tartazine";
+	    public boolean colorIsHarm=true;
+	    public boolean isItFresh=false;
+	    public boolean orderedOnline=true;
+	    public boolean hasOnTimeDelivary=true;
+	    public boolean pasteIsInBox=true;
+        public String boxshape="Square";
+	    public boolean hasIngredients=true;
+	    public boolean hasDescription=true;
+        public String forHowManyPeople="5";
+        public boolean isItSufficiant=false;
+        public String sufficiantFor="3 people";
+        public String whoOrderedIt="head of the family";
+        public String headName="mr.patil";
+        public boolean curryPasteIsForOccasion=true;
+        public String occasion="house party";
+        public boolean tasteIsDisapponting=true;
+        public String tasteMissing="spicy";
+        public boolean canGiveRating=true;
+        public boolean onlineRating=true;
+        public boolean ratingOutOf5=true;
+        public String ratingGiven="3";
+        public String manufactuedIn="pune";
+	    public String owner="haldirams";
+	    public String ceoOfHaldiram="mr. rakesh haldiram";
+        public String startedYear="1996";	    
+	    public boolean hasBarcodeOnBOX=true;
+	    public String expirationDate="April 2024";
+	    public long barcode=8901314010520l;
+	    public String manufactureDate="26th Jan 2024";	    
+	    public String capShape="Round";
+		public int pHLevel=7;
+		public String flourideContent="1100 ppm";
+		 public String isApprovedBy="FPO";
+		 public boolean isBrandAvailableIn10years=true;
+		public boolean itsTasteIsGood=true;
+		public boolean itProvidesDiffernetQuantity=true;
+		public String productFormulation="Paste";
+		public boolean isChildcanEat=false;
+		public String reasonFornotTOEat="too spicy";
+		public boolean canGivaFeedback=true;
+		public boolean onlineFeedback=true;
+		public String feedback="taste is average";
+		public String packagingType="plastic cover";
+	 public boolean hasBrandLogo=true;
+	public boolean itsContainSalt=true;
+   public String areaServed="in Inadia only";
+	public int averageRatingOftaste=3;
+	public String revenueOfHaldiram="5 Billion";
+	public String website="www.haldiram.com";
+	public int branchesOfHaldiram=5;
+	public String branchesIn="pune,delhi,karnataka,kerala,mumbai";
+	public String sloganOfHaldiram="taste of tradition .";
+	public boolean isTheBiggestBrandInTheWorld=false;
+	public boolean pasteIsHavingSweet=true;
+	public String shelfLife="2 days";
+    public boolean isGlutanFree=false;
+	public boolean hasNutrtionalInfo=true;
+	public boolean hasAllergenInfo=true;
+	public boolean isItvegan=true;
+	public boolean wasItHot=false;
+	public int noOfSpicesAdded=30;
+	public String processTime="5 hr";
+	public boolean hasAdditives=true;
+	public boolean antiOxydents=false;
+	public boolean hasStorageInstruction=true;
+	public String storageType="refrigerate after using";
+	public String spicesUsed="haldi, pepper, cumin, corriander";
+	public String herbsUsed="lemomGrass";
+	public String mainAroma="cumin";
+
+
+}
+
+
