@@ -31,7 +31,7 @@ public class Runner {
         location.biscuit.brand="oreo";
        System.out.println(location.biscuit.brand);
        location.biscuit.cost=15;
-
+      System.out.println(location.biscuit.cost);
         
         
 		
