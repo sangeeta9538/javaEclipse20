@@ -1,13 +1,20 @@
 package com.xworkz.logPrograms;
 
-public class Add {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-       int a=10;
-        int b=10;
-        int c=(a+b);
-        System.out.println(c);
+public class Add extends SuperEx{
+	int a=40;
+	
+	public Add() {
+		//SuperEx obj=new Super
+		//Add m=new Add();
+		System.out.println(a);
+
+		super.show();
+
+		System.out.println(super.a);
+
+	}
+	
+	
 	}
 
-}
