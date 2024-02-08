@@ -7,7 +7,7 @@ import com.xworkz.balmclasses.ZanduBalm;
 public class BalmRunner {
 
 	public static void main(String[] args) {
-         
+		
 		 CastingBalm cast=new CastingBalm();
 		 ZanduBalm zandu=new ZanduBalm();
 		 cast.runBalm(zandu);

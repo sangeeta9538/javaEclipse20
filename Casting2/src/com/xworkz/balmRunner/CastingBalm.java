@@ -9,12 +9,8 @@ public class CastingBalm {
 	
 	public void runBalm(Balm balm)    //zandu or vicks
 	{   
-		System.out.println(balm.price);
-		balm.aroma();
-		System.out.println("----------------------------");
-		
-		
-		if (balm instanceof ZanduBalm) {
+	
+	        if (balm instanceof ZanduBalm) {
 			
 			ZanduBalm zandu=(ZanduBalm)balm;
 			System.out.println(zandu.price);
@@ -33,10 +29,6 @@ public class CastingBalm {
 			if(balm instanceof VicksInhaler) {
 				
 			VicksInhaler vicksInhaler=(VicksInhaler)balm;
-//			System.out.println(vicksInhaler.price);
-//			vicksInhaler.aroma();
-//			System.out.println(vicksInhaler.quantity);
-//			vicksInhaler.inflammate();
 			System.out.println(vicksInhaler.madeIn);
 			vicksInhaler.cooling();
 			
