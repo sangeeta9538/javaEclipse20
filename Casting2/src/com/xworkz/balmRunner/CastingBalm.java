@@ -8,7 +8,12 @@ import com.xworkz.balmclasses.ZanduBalm;
 public class CastingBalm {
 	
 	public void runBalm(Balm balm)    //zandu or vicks
-	{
+	{   
+		System.out.println(balm.price);
+		balm.aroma();
+		System.out.println("----------------------------");
+		
+		
 		if (balm instanceof ZanduBalm) {
 			
 			ZanduBalm zandu=(ZanduBalm)balm;
