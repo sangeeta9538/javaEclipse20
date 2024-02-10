@@ -1,0 +1,283 @@
+1).  Java is an object oriented program language developed by Sun micro system in 1995.Father of java is James Gosling.
+     -java is platform independent
+     -it is robust and dynamic in nature.
+     javac-is a java compiler file which provides tools to compile the code and generates the .class file
+	 reads source files written in the Java programming language, and compiles them into bytecode class
+	 syntax- javac filename.java
+	 java-java file is used to run a .class file which converts bytecode into machine level language
+	 
+2). JDK-develops application in java it consist of comliler debuger javaDoc.JDK is a platform dependent means every platform need different 
+    JRE- stands for java runtime environment.if gives tools to run a java application and provides classes.
+    JVM-java vertual machine.it is present in JDK and Jvm.it is responcible to run a program as it consists of inbuilt tools for both
+    JDK and JRE. It exectes the program line by line thus it is called as interpreter also.
+
+3).	.java file-it is use to run a .class file which converts bytecode into machine level language
+    .class file-it converts java code into bytecode which generates .class file so that it is used by the JVM
+	
+4).java IDE's-Eclipse,inteliJ,notepad++,notepad,netbeans,VS code
+
+5).Variable-Variable is a container which is used to store a value.It can be chanded or rewrite the value.
+    syntax:  
+	      DataType variableName=value;
+		  String variables are in double cotes
+		  String name="x-Workz";
+		  
+	Types of variables
+	1)Instance variables:declared inside the class but outside the method
+	2)Local variables:are declared inside the methods.
+	3)static variables: variables written with keyword static are called static variables
+	4)parameters:are the values decalred inside the braces in methods
+	
+	
+	
+6).Object-oriented programming has several advantages  programming:
+
+OOP is faster and easier to execute
+OOP provides a clear structure for the programs
+
+	
+7).  output-  could not find or load a main class Xworkz
+
+	
+	
+8). DataTypes:are used to store a value of perticular fixed type
+    Types of datatypes-primitive datatypes and nonprimitive datatypes
+	
+	primitive datatypes-are given a diffrent size for different type of Datatype
+	int, float ,char , boolean , double,long,byte,
+	
+	nonprimitive datatypes:are classes and not fixed in size
+	strings ,classes, nested loops,arrays
+	
+	
+9). Dot operator-it is used to access the methods and data members of the class
+     syntax:
+	 reference.method();
+	 reference.dataMember;
+	 
+10).Java features
+     1.object oriented
+	 2.platform independent
+	 3.robust
+	 4.Dynamic Implementation
+	 multithreded
+	 distributed secured
+	 interpreted
+	 portable
+	 secured
+	 high performance
+	 
+	 
+11).Arrays-is a collection of similar data types written inside the curly brackets
+    syntax:
+	dataType arrayName[]={values};
+	
+	ex: int arrayNum[]={45,86,65,95,44};
+
+
+12).class-class is a blueprint which is used to create an object.it includes dataMembers and methods
+    syntax:
+    accessspecifier ClassName{
+		
+	}
+    object - is an instance of class or real word entity which has states and behaviors
+
+13).Keywords-are reserved word that has predifined meaning in java.
+    case: is used in switch statements to write a logic
+	this:is used in constructor chaining to call one constructor from another constructor
+	break: is used in loops to come out of the loops
+	continue: is used to skip the iteration
+	instanceof:checks object is instance of specific class or not
+	double: is used to store a double type value of 16 bits
+	int: is used to store a int type value of 8 bits
+	float: is used to store a float type value of 8 bits
+	super:is used in constructor chaining to call one constructor from another constructor.this is default and use as first statement
+    default:is used to store the default values
+	char:is used to store a char type value of 2 byte
+	static :is used to declare datamembers and methods as static their values cant be changed
+	
+14). constructor: is a special method which does not have a return type and has same name as classname
+     it is used to instantiate the variables declared in the class
+     it is also used in object creation and constructor chaining
+	 constructor object creation provides: makes the copy of an object
+	                                       allocates memory
+										   accesses the instance valriables
+										   loads the constructor
+										   returns the values
+										   
+	 
+	 types:default constructor
+	       parameterized constructor
+		   no parameterized constructor
+		   
+	syntax:
+	
+	accessSpecifier constructorName(){
+		
+	
+	}
+     
+	ex:public class Dog{
+		
+		public Dog(){
+			
+			
+		}
+	}
+	
+	
+15). why main method is static: so that jvm may call it without having to create an instance of class that contains the main function
+	 
+	 method types :static methods and non static methids
+	 
+	 
+	 
+16)  
+
+    public class Ant {
+		
+	
+	public static void main(String[] args) {
+		 int[] arr= {12,3,2,45,6,7,6};
+		
+		System.out.println(arr.length);
+		
+	}
+	
+
+}
+
+	
+
+
+
+17). method overloading:
+     declaring and reusing methods having same name but diffrent in datatypes or number of parameter
+	 
+	 ex.
+	 public class A{
+		 
+		 public void display(){
+			 System.out.println("this is display method");
+		 }
+		 
+		 public void display(int x, int y){
+			 System.out.println("this is display method with parameters of type int");
+ 
+		 }
+		 		 
+				 
+		public void display(double a, double b){
+			 System.out.println("this is display method with parameters of type double");
+		 
+		 
+	 }
+	 
+	method overriding:  allows subclass to provide a different implementation of method that already provided by its parent class 
+	 public class Animal{
+		 
+		 public void bark(){
+			 System.out.println("this is bark method in parent class");
+		 }
+	 }
+	 public class Dog extends Animal{
+		 		 public void bark(){
+			 System.out.println("this is bark method in child class");
+		 }
+	 }
+	 
+	 public class AnimalRunner{
+		 public static void main(String[] args){
+			 
+			 Dog dog=new Dog();
+			 dog.bark();
+		 }
+	 }
+	 
+	 
+	 
+
+
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	 
