@@ -9,7 +9,7 @@ public class MovieRunner {
 			 movie.buy(600);
 			 System.out.println("after buying");
 		}
-		catch(Exception e) {
+		catch(MyException e) {
 			System.out.println("message: "+ e.getMessage());
 			e.printStackTrace();
 		}
